@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5124610400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demoStepDefinition.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Automating Demo Shop",
+        "description": "",
+        "id": "test-script-demo;automating-demo-shop",
+        "after": [
+          {
+            "result": {
+              "duration": 836925400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demoStepDefinition.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6105337100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I add four different products to my wishlist",
+            "match": {
+              "location": "demoStepDefinition.i_add_four_different_products_to_my_wishlist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 473215199,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I view my wishlist table",
+            "match": {
+              "location": "demoStepDefinition.i_view_my_wishlist_table()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1778747200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I find total four selected items in my wishlist",
+            "match": {
+              "location": "demoStepDefinition.i_find_total_four_selected_items_in_my_wishlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1212319599,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for lowest price item to my cart",
+            "match": {
+              "location": "demoStepDefinition.i_search_for_lowest_price_item_to_my_cart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1266278300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am to verify the item in my cart",
+            "match": {
+              "location": "demoStepDefinition.i_am_to_verify_the_item_in_my_cart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test Script Demo",
+    "description": "",
+    "id": "test-script-demo",
+    "keyword": "Feature",
+    "uri": "features/demo.feature"
+  }
+]

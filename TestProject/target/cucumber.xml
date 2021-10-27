@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="16.797433">
+<testcase classname="Test Script Demo" name="Automating Demo Shop" time="16.797433">
+<system-out><![CDATA[Given I add four different products to my wishlist..........................passed
+When I view my wishlist table...............................................passed
+Then I find total four selected items in my wishlist........................passed
+When I search for lowest price item to my cart..............................passed
+Then I am to verify the item in my cart.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
